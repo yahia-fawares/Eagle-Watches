@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: dimgrey;
+ 
+}
+/* Header Design */
+.container {
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    background: linear-gradient(to left, #343131, #1e1d1d, #000000);
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0px 20px;
+    box-shadow: 0 4px 8px rgba(3, 3, 3, 0.5);
+}
+
+.logo {
+    height: 150px;
+    width: auto;
+    margin-left: -50px; 
+    transition: 0.8s;
+}
+
+.logo:hover {
+    width: auto;
+    height: 160px;
+}
+
+.watch {
+    font-style: italic;
+    color: white;
+    margin-top: 58px;
+    margin-left: -100px;
+    font-size: 16px;
+}
+
+.nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #f2f2f2;
+    transition: 0.5s;
+    padding: 5px 10px; 
+    white-space: nowrap; 
+}
+
+.nav ul li a:hover {
+    color: rgb(146, 146, 161);
+    font-size: 23px;
+}
+/* Main Design */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-page {
+    margin-top: 1%;
+    margin-bottom: -2%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    margin-top: 12%;
+    margin-bottom: 10%;
+    border-radius: 20%;
+    background: #251d1d;
+    max-width: 500px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(42, 40, 40, 0.971);
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.971);
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #a0522d;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    transition: 0.9s;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.971);
+    border-radius: 20%;
+}
+
+.form button:hover {
+    background: #ffdab9;
+    color: rgb(3, 3, 3);
+}
+
+.form .message {
+    margin: 60px 0px 0px;
+    color: #b37f7f;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form .message a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.form .message a:hover{
+    color: #ffdab9;
+}
+
+.h1-contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+    margin-left: 34%;
+    font-size: 33px;
+    font-weight: bold;
+    color: peachpuff;
+    background-color: sienna;
+    width: 129px;
+    border-radius: 20%;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.971);
+}
+
+
+.contact-container {
+    padding: 50px;
+    text-align: center;
+  
+    color: #333;
+}
+
+.contact-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+.map-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 10px; /* Match border-radius of container */
+}
+
+/* Footer Design */
+footer {
+    position: relative;
+    background-color: #1e1d1d;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    margin: 10px;
+    flex: 1; 
+    min-width: 200px; 
+}
+
+.footer-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffdab9; 
+}
+
+.footer-section ul {
+    list-style: none;
+    display: flex;
+    gap: 19px;
+    margin-left: 82px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ffdab9; 
+}
+
+.footer-section p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #d3d3d3;
+}
+
